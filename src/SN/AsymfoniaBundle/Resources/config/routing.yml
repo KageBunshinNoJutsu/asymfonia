@@ -1,0 +1,7 @@
+sn_asymfonia_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SNAsymfoniaBundle:Default:index }
+
+hello_the_world:
+    path:     /
+    defaults: { _controller: SNAsymfoniaBundle:Index:index }

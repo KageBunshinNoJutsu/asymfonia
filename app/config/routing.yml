@@ -1,0 +1,11 @@
+sn_asymfonia:
+    resource: "@SNAsymfoniaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+asy_asymfonia:
+    resource: "@ASYAsymfoniaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

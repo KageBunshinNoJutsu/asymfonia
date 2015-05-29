@@ -1,0 +1,8 @@
+services:
+#    sn_asymfonia.example:
+#        class: SN\AsymfoniaBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+# src/OC/PlatformBundle/Resources/config/services.yml
+
+    sn_asymfonia.type1.premierservice:
+        class: SN\AsymfoniaBundle\Models\Type1\PremierService

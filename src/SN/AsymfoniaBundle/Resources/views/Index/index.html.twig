@@ -1,0 +1,16 @@
+{% extends "SNAsymfoniaBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Accueil{% endblock %}
+
+{% block body %}
+	Hello {{ name }}!<br>
+	valeur : {{ valeur }}<br>
+	valeur2 : {{ valeur2 }}<br>
+
+
+	<form method="post">
+		valeur : <input type="text" name="valeur" value="{{ valeur }}" /><br>
+		valeur : <input type="text" name="valeur2" value="{{ valeur2 }}" /><br>
+		<input type="submit" />
+	</form>
+{% endblock %}
