@@ -1,0 +1,5 @@
+
+- Site ou tout les utilisateurs peuvent creer des listes de top x.
+- Ces top x seront classés selon leurs catégories (et pt-etre sous catégories).
+- chaque utilisateur pourra noter un top x
+- chaque utilisateur pourra noter chaque element contenu dans un top x, en passant par ce top, ou par une recherche
